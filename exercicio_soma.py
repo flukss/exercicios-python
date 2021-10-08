@@ -1,0 +1,5 @@
+v1 = int(input('Primeiro valor: '))
+v2 = int(input('Segundo valor: '))
+v3 = int(input('Terceiro valor '))
+result = (v1 ** 2) + (v2 ** 2) + (v3 ** 2)
+print(f'O resultado da soma dos quadrados é {result}')

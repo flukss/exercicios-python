@@ -1,0 +1,5 @@
+valor = float(input('Valor do produto:'))
+desconto = float(input('Desconto em %: '))
+valor_desconto = round((valor * desconto / 100), 2)
+fim = round(valor - (valor * desconto / 100), 2)
+print(f'O valor do desconto é {valor_desconto}. O preço final com desconto será de {fim}.')

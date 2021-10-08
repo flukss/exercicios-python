@@ -1,0 +1,5 @@
+nome = str(input('Digite o nome: '))
+print(f'{nome.lower()}, {nome.upper()}')
+print(f"{len(nome) - nome.count(' ')}")
+nome = (nome.split())
+print(f'{nome}')
